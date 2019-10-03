@@ -10,12 +10,14 @@ class ListingCollectionViewCell: UICollectionViewCell {
   @IBOutlet weak var locationLabel: UILabel!
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet weak var priceLabel: UILabel!
+  @IBOutlet weak var favoriteIcon: UIImageView!
 
   func decorate(for listing: Listing) {
     imageView.image = listing.image
     locationLabel.text = listing.location
     titleLabel.text = listing.title
     priceLabel.text = "$\(listing.pricePerNight)"
+    favoriteIcon.isHidden = !listing.isFavorite
   }
 
 }

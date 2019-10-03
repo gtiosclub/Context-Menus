@@ -66,10 +66,20 @@
                                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BJv-lL-9yK">
+                                                                    <rect key="frame" x="188" y="134" width="16" height="13.5"/>
+                                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="16" id="WTn-PK-QDY"/>
+                                                                        <constraint firstAttribute="width" constant="16" id="wN1-s4-ZDo"/>
+                                                                    </constraints>
+                                                                </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="coq-eZ-lw1" secondAttribute="trailing" id="0za-pA-AzX"/>
+                                                                <constraint firstAttribute="bottom" secondItem="BJv-lL-9yK" secondAttribute="bottom" constant="8" id="CjT-n5-zAo"/>
+                                                                <constraint firstAttribute="trailing" secondItem="BJv-lL-9yK" secondAttribute="trailing" constant="8" id="J7S-cK-oHc"/>
                                                                 <constraint firstItem="coq-eZ-lw1" firstAttribute="leading" secondItem="rM0-KT-Ny1" secondAttribute="leading" id="PgP-Sx-ta4"/>
                                                                 <constraint firstAttribute="bottom" secondItem="coq-eZ-lw1" secondAttribute="bottom" id="VfK-he-fkb"/>
                                                                 <constraint firstItem="coq-eZ-lw1" firstAttribute="top" secondItem="rM0-KT-Ny1" secondAttribute="top" id="zN6-18-n6V"/>
@@ -131,6 +141,7 @@
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="212" height="239"/>
                                         <connections>
+                                            <outlet property="favoriteIcon" destination="BJv-lL-9yK" id="Jhv-WY-b1g"/>
                                             <outlet property="imageView" destination="coq-eZ-lw1" id="7X4-pb-ejb"/>
                                             <outlet property="locationLabel" destination="od7-dA-BJD" id="IPK-dI-F6X"/>
                                             <outlet property="priceLabel" destination="0hn-HR-wMZ" id="noe-h7-z0B"/>
@@ -241,6 +252,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="heart.fill" catalog="system" width="64" height="54"/>
         <image name="porto" width="1440" height="960"/>
         <namedColor name="Rausch">
             <color red="1" green="0.35294117647058826" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
