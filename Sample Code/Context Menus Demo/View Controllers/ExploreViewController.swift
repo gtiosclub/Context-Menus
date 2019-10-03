@@ -114,9 +114,7 @@ extension ExploreViewController {
     /// the identifier object has to conform to the Objective-C Foundation `NSCopying` protocol.
     return UIContextMenuConfiguration(
       identifier: listing.id as NSString,
-      previewProvider: { () -> UIViewController? in
-        return nil
-      },
+      previewProvider: nil,
       actionProvider: { _ in
 
         /// The `actionProvider` block returns a `UIMenu` with a list of `UIAction`s.
