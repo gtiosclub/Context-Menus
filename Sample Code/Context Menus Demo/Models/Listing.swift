@@ -8,6 +8,7 @@ import UIKit
 
 class Listing {
 
+  let id = UUID().uuidString
   let image: UIImage
   let title: String
   let location: String
