@@ -6,6 +6,7 @@ import UIKit
 
 class ListingCollectionViewCell: UICollectionViewCell {
 
+  @IBOutlet weak var imageContainer: UIView!
   @IBOutlet weak var imageView: UIImageView!
   @IBOutlet weak var locationLabel: UILabel!
   @IBOutlet weak var titleLabel: UILabel!
