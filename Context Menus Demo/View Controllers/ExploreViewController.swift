@@ -43,7 +43,7 @@ extension ExploreViewController: UICollectionViewDelegateFlowLayout {
 
   var itemsPerRow: Int { 2 }
   var cellAspectRatio: CGFloat { 1.2 }
-  var horizontalSpacing: CGFloat { 10 }
+  var horizontalSpacing: CGFloat { 12 }
   var verticalSpacing: CGFloat { 20 }
 
   func collectionView(
@@ -94,6 +94,3 @@ extension ExploreViewController: UICollectionViewDelegateFlowLayout {
   }
 
 }
-
-
-
