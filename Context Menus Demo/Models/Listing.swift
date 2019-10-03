@@ -45,17 +45,6 @@ extension Listing {
   static var mocks: [Listing] = {
     return [
       Listing(
-        image: #imageLiteral(resourceName: "yurt"),
-        title: "A quiet yurt in Savoie - Bauges",
-        location: "Bellecombe-en-Bauges",
-        rating: 4.66,
-        numberOfReviews: 343,
-        pricePerNight: 82,
-        description: """
-          A Big yurt of 50 m2 in the massif of Wallows in Savoy. Calm down in the middle of nowhere. The view (sight) is 360 ° on baujus mountains (Massif of Bauges). A lot of activities are nearby as trek, mountain bike, climbing and ski. In 30 mn, the lakes of Aix les Bains and Annecy. I know the region perfectly and could advise to you. I let some maps there. The yurt is a circular, good housing environment to get fresh ideas or meditate. A big wood stove warms the atmosphere. It is thus accessible summer and winter alike. In case of snowfall, it will be necessary to finish on foot, in rackets(snowshoes) or in skis according to your tastes. The last part of the way is cleared the snow.
-        """),
-
-      Listing(
         image: #imageLiteral(resourceName: "porto"),
         title: "PORTA33 I PORTO PENTHOUSE Duplex at Rua das Flores",
         location: "Porto",
@@ -68,7 +57,7 @@ extension Listing {
 
       Listing(
         image: #imageLiteral(resourceName: "santorini"),
-        title: "Hector Cave House",
+        title: "Hector Cave House overlooking ocean",
         location: "Santorini",
         rating: 4.95,
         numberOfReviews: 257,
@@ -86,6 +75,17 @@ extension Listing {
         pricePerNight: 75,
         description: """
           This lovely, complete, small apartment is a perfect oasis for those wanting a genuine San Francisco experience. This studio includes a private entrance off of garden, main sleeping area, bath, and complete kitchen. The studio is in a diverse, working class residential neighborhood away from City center (5 miles to downtown) and tourist areas but close to a large park, public transportation and major highways making for a great base for exploring opportunities and access to all of the Bay Area.
+        """),
+
+      Listing(
+        image: #imageLiteral(resourceName: "yurt"),
+        title: "A quiet yurt in Savoie, surrounded by nature",
+        location: "Savoie",
+        rating: 4.66,
+        numberOfReviews: 343,
+        pricePerNight: 82,
+        description: """
+          A Big yurt of 50 m2 in the massif of Wallows in Savoy. Calm down in the middle of nowhere. The view (sight) is 360 ° on baujus mountains (Massif of Bauges). A lot of activities are nearby as trek, mountain bike, climbing and ski. In 30 mn, the lakes of Aix les Bains and Annecy. I know the region perfectly and could advise to you. I let some maps there. The yurt is a circular, good housing environment to get fresh ideas or meditate. A big wood stove warms the atmosphere. It is thus accessible summer and winter alike. In case of snowfall, it will be necessary to finish on foot, in rackets(snowshoes) or in skis according to your tastes. The last part of the way is cleared the snow.
         """),
 
       Listing(
